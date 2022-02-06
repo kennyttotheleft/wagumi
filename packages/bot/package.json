@@ -16,9 +16,9 @@
   "main": "dist/index",
   "scripts": {
     "build": "tsc",
+    "deploy": "tsc && node .",
     "dev": "nodemon src/index.ts",
-    "start": "node .",
-    "deploy": "tsc && node ."
+    "start": "node ."
   },
   "dependencies": {
     "discord.js": "^12.5.3",
