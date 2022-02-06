@@ -1,1 +1,1 @@
-web: yarn deploy:bot
+web: npm run deploy:bot
