@@ -41,8 +41,7 @@
     "postpublish": "pinst --enable",
     "release": "semantic-release",
     "release:check": "semantic-release --dry-run",
-    "test": "turbo run test",
-    "deploy:bot": "yarn workspace @wagumi/bot deploy"
+    "test": "turbo run test"
   },
   "npmpackagejsonlint": {
     "extends": "npm-package-json-lint-config-default"
