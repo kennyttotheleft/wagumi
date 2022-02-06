@@ -17,7 +17,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "nodemon src/index.ts",
-    "start": "node ."
+    "start": "node .",
+    "deploy": "tsc && node ."
   },
   "dependencies": {
     "discord.js": "^12.5.3",
